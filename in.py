@@ -96,7 +96,7 @@ except: infinix = [' Hot 10', ' Hot 10 Lite', ' Hot 10 Play', ' Hot 10i', ' Hot 
 
 ###---[ DUMP PROXY ]---###
 try:
-	for data in ses.get("https://raw.githubusercontent.com/hookzof/socks5_list/master/tg/socks.json").json(): list_proxy.append({"https": "socks5://"+data["ip"]+":"+data["port"]})
+	for data in ses.get("https://raw.githubusercontent.com/NAZRI-XD23/V3/master/socks5.txt").json(): list_proxy.append({"https": "socks5://"+data["ip"]+":"+data["port"]})
 except Exception as e: pass
 
 ###---[ USER AGENT ]---###
