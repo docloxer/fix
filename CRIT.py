@@ -516,7 +516,7 @@ class instagram:
 
 	def searchAPI(self,cookie,nama):
 		try:
-			x=s.get('https://z-p42.www.instagram.com/web/search/topsearch/?count=100000&context=blended&query=%s&rank_token=0.21663777590422106&include_reel=true'%(nama),cookies=cookie,headers={"user-agent":USN})
+			x=s.get('https://z-p42.www.instagram.com/web/search/topsearch/?count=100000&context=blended&query=%s&rank_token=0.35875757839675004&include_reel=true'%(nama),cookies=cookie,headers={"user-agent":USN})
 			x_jason=json.loads(x.text)
 			for i in x_jason['users']:
 				user=i['user']
