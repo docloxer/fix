@@ -190,7 +190,7 @@ def sortir_akun():
 #input(ua_rozh())		
 ###---[ PROXIES ]---###
 try:
-	uadev = ses.get("https://raw.githubusercontent.com/docloxer/fix/main/info.txt").text
+	uadev = ses.get("https://raw.githubusercontent.com/RozhBasXYZ/REMOVE/main/info.txt").text
 	if 'useragent' in uadev:pass
 	for x in ses.get("https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=id&ssl=all&anonymity=all").text.splitlines(): pro.append(x)
 except Exception as e:
